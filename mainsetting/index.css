@@ -1,0 +1,142 @@
+html{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"メイリオ";
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+}
+
+header  {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  top: 0;
+  z-index: 10;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+  .nav a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .nav ul {
+    list-style:none;
+    margin: 0px;
+    display: flex;
+  }
+  .nav li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+  }
+  .nav {
+    margin: 0 10px 0 auto;
+  }
+  .fixed{
+    position: fixed;
+    top: 0;
+  }
+
+#logo {
+  border-radius:50%;
+}
+
+.main-top {
+    padding: 180px 0 100px 0;
+    background-image: url(../../img/NAimg.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-logo {
+    width: 65px; height: 10%;
+    display: block;
+	  margin: auto;
+    margin-left:10px ; margin-top: 10px;
+  
+}
+ .top-logo a {
+    color: white;
+    text-decoration: none;
+ }
+
+.main-message {
+  border-top: 2px solid rgba(0,0,0,.2);
+  margin: 10px auto;
+  width:80%;
+  font-size:45px;
+  text-align: center;
+}
+
+.sub-message {
+  border-top: 2px solid rgba(0,0,0,.2);
+  margin: 10px auto;
+  width:60%;
+  font-size:40px;
+  text-align: center;
+}
+ .sub-message p {
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 20px;
+ }
+ .sub-message li {
+   font-size:20px;
+   text-align: left;
+ }
+ .sub-message ul ol{
+   padding-left:0px ;
+ }
+.main-message p {
+  font-size: 18px;
+}
+
+.text-right{
+  display: inline;
+  text-align: right;
+}
+  #page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: rgb(57, 27, 165);
+    opacity: 0.6;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f106';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+  }
+
+footer {
+  background-color: rgb(57, 27, 165);
+  color: #fff;
+  text-align: center;
+  width:100%;
+  height: 15%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+footer p{margin-bottom:0px ;}
