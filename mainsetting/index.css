@@ -37,6 +37,7 @@ header  {
     position: fixed;
     top: 0;
   }
+  .nav-more{display: none;}
 
 #logo {
   border-radius:50%;

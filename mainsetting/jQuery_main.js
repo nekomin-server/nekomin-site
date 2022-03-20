@@ -40,4 +40,10 @@ jQuery(function() {
 	  $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
 	  return false;
 	});
-  });
+});
+
+$(function () {
+	$('.nav-butoon').click(function () {
+		$('.nav-more').scrollTop();
+	})
+})
