@@ -19,6 +19,7 @@ $(function(){
 jQuery(function() {
 	var appear = false;
 	var pagetop = $('#page_top');
+	pagetop.hide();
 	$(window).scroll(function () {
 	  if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
 		if (appear == false) {
@@ -46,4 +47,15 @@ $(function () {
 	$('.nav-butoon').click(function () {
 		$('.nav-more').scrollTop();
 	})
+})
+
+jQuery(function () {
+	var NavList = $('.nav-list');
+	NavList.hover(function () {
+		NavList.addClass('FideInColor');
+	})
+})
+
+jQuery(function () {
+	$(html).hide().faedin('slow');
 })

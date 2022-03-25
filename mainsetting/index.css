@@ -43,6 +43,10 @@ header  {
   border-radius:50%;
 }
 
+.air5 div{
+  padding: 25%;
+}
+
 .main-top {
     padding: 180px 0 100px 0;
     background-image: url(../../img/NAimg.png);
