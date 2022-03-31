@@ -55,7 +55,3 @@ jQuery(function () {
 		NavList.addClass('FideInColor');
 	})
 })
-
-jQuery(function () {
-	$(html).hide().faedin('slow');
-})
