@@ -5,6 +5,23 @@ html{
 
 body {
   margin: 0px;
+  height: 100%;
+}
+
+.first-page {
+  z-index: 500;
+  background-color:white;
+  height: 10%;
+  margin: 25% 0;
+  text-align: center;
+}
+.first-page h1{
+  margin:25% 0;
+  text-align: center;
+}
+
+.main-page {
+  display: none;
 }
 
 header  {
