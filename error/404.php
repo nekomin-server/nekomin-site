@@ -27,6 +27,7 @@
         </div>
         <div class="main-message">
             404 notfound
+            <p>おっと！ここにはページがないようです</p>
         </div>
         <div class="sub-message" id="1">
             <p> お探しになったページは変更または削除された場合があります。<br>
