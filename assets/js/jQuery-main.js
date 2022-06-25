@@ -38,26 +38,34 @@ $(function(){
 		$('main').css('grid-template-columns','100%');
 		$('.main-card').css('margin-left', '15px');
 		$('aside').css('display', 'none');
+		let visButton = false;
 	}else{
 		$('.header-nav').show();
 		$('.hamburger').css('display','none');
-		$('main').css('grid-template-columns','75% 1fr');
-		$('.main-card').css('margin-left', '100px');
 		$('aside').show(0);
 	}
 })
 
-$(function () {
-	var $header = $("#header");
-	$(window).on("load scroll", function () {
-	  var value = $(this).scrollTop();
-	  if (value > 0) { //スクロールしたら.scroll付与
-		$header.addClass("scroll");
-	  } else {
-		$header.removeClass("scroll");
-	  }
-	});
-  });
+jQuery(function() {
+    var pagetop = $('#page_top');   
+    pagetop.hide();
+	if (visButton = !false){
+		$(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {  //100pxスクロールしたら表示
+            pagetop.fadeIn();
+        } else {
+            pagetop.fadeOut();
+        }
+    });
+    pagetop.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500); //0.5秒かけてトップへ移動
+        return false;
+    });
+	}
+    
+});
 
 $(function() {
     $('.hamburger').click(function() {

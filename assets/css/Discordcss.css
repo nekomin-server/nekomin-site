@@ -1,0 +1,19 @@
+.discord-message {
+    border-radius: 10px;
+    height:500px;
+    color: #fff;
+    background:linear-gradient(90deg,#5865f2 0%,#5865f2 10%,#1f2225 10%,#1f2225 100%);
+}
+    .discord-message h2{
+        margin:0;
+        margin-left: 10.5%;
+    }
+    .discord-message p{
+        margin:0;
+        margin-left: 10.5%;
+    }
+    .discord-message iframe{
+        width:90%;
+        height: 350px;
+        margin-left: 10%;
+    }
