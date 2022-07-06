@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /template/
+Disallow: /assets/
+Sitemap:/sitemap/sitemap.xml 
