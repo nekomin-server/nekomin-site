@@ -6,7 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<sitemap>
 <url>
   <loc>https://nekomin.emetea.ml/</loc>
   <lastmod>2022-06-25T15:05:32+00:00</lastmod>
@@ -27,6 +27,6 @@
   <lastmod>2022-06-25T15:05:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
+</sitemap>
 
 </urlset>
