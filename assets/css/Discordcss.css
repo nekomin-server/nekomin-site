@@ -1,6 +1,7 @@
 .discord-message {
+    margin-top:10px;
     border-radius: 10px;
-    height:500px;
+    height:auto;
     color: #fff;
     background:linear-gradient(90deg,#5865f2 0%,#5865f2 10%,#1f2225 10%,#1f2225 100%);
 }

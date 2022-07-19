@@ -1,0 +1,4 @@
+window.onload = function() {
+    let textJson = {"title":"","message-n":2,"web-text":{"h1":"","ToC":{"ul":"","li":[{"m-1":"","m-2":""}]},"m-1":[{"h2":"","p":""}]}};
+    console.log(JSON.textJson);
+}
