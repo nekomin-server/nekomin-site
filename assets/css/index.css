@@ -197,10 +197,11 @@ nav.globalMenuSp.active {
   padding: 110px 0;
 }
 
-#top-image h2 {
+#top-image span {
   color: #fff;
   text-align: center;
   font-size: 30px;
+  display: block;
 }
 
 main {
@@ -244,7 +245,7 @@ main {
   padding: 5px;
 }
 
-.main-nav h2 {
+.main-nav span {
   margin-bottom: 0px;
 }
 
