@@ -6,7 +6,7 @@ html {
 body {
   margin: 0px;
   background-color: #fff;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, "メイリオ";
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, "メイリオ","NotoSansJP-Bold.otf";
 }
 
 .loading-page {
@@ -18,7 +18,7 @@ body {
   color: #000;
 }
 
-.loading-page h2 {
+.loading-page span {
   font-size: 26px;
   margin: 25% 0;
   text-align: center;
@@ -198,10 +198,10 @@ nav.globalMenuSp.active {
 }
 
 #top-image span {
+  display: block;
   color: #fff;
   text-align: center;
   font-size: 30px;
-  display: block;
 }
 
 main {

@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow: /template/
-Disallow: /assets/
-Sitemap: /sitemap/sitemap.xml 
+Disallow: /assets/html/
+Sitemap: https://nekomin.emetea.ml/sitemap/sitemap.xml 
